@@ -118,10 +118,40 @@ li {
   text-align: center;
 }
 
-/* フォーム */
+/* 予約・問い合わせ */
 .bottom-content {
-  height: 800px;
+  height: 999px ;
   margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-field, .large-field {
+  width: 800px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid black;
+  display: block;
+}
+
+.small-field {
+  margin: 0 auto 15px;
+}
+
+.large-field {
+  height: 200px;
+  margin: 0 auto 30px;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #eee8aa;
+  background-color: #eee8aa;
+  color:black;
+  display: block;
 }
 
 /* フッター */
